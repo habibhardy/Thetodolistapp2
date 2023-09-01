@@ -1,0 +1,536 @@
+
+.task_row{
+    width: 90%;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.task_row .right{
+    width: 14rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease;
+    gap: 1rem;
+}
+
+
+
+
+
+
+.task_row .right .delete_btn{
+     width: 3.5rem;
+     height: 3.5rem;
+     border-radius: 8rem;
+     border: 2px solid white;
+     transition: all 300ms ease;
+     cursor:pointer;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row .right .delete_btn:hover{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(252, 37, 108);
+    scale: 0.95;
+    transition: all 300ms ease;
+}
+.task_row .right .delete_btn:active{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(252, 37, 108);
+    scale: 0.8;
+    transition: all 300ms ease;
+}
+.task_row .right .delete_btn_c{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(0, 255, 98);
+    transition: all 300ms ease;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row .right .delete_btn_c:hover{
+   width: 3.5rem;
+   height: 3.5rem;
+   border-radius: 8rem;
+   border: 2px solid rgb(252, 37, 108);
+   scale: 0.95;
+   transition: all 300ms ease;
+}
+.task_row .right .delete_btn_c:active{
+   width: 3.5rem;
+   height: 3.5rem;
+   border-radius: 8rem;
+   border: 2px solid rgb(252, 37, 108);
+   scale: 0.8;
+   transition: all 300ms ease;
+}
+
+
+
+
+
+.task_row .right .complete_btn{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row .right .complete_btn:hover{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(0, 255, 98);
+    scale: 0.95;
+    transition: all 300ms ease;
+}
+.task_row .right .complete_btn:active{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    scale: 0.8;
+}
+.task_row .right .complete_btn_c{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(0, 255, 98);
+    transition: all 300ms ease;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row .right .complete_btn_c:hover{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    scale: 0.95;
+    transition: all 300ms ease;
+}
+.task_row .right .complete_btn_c:active{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    scale: 0.8;
+}
+
+
+
+
+
+.task_row .right .edit_btn{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row .right .edit_btn:hover{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(96, 19, 148);
+    scale: 0.95;
+    transition: all 300ms ease;
+}
+.task_row .right .edit_btn:active{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    scale: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.task_row_opac{
+    width: 90%;
+    border: 2px solid rgb(226, 15, 15);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.task_row_opac .right{
+    width: 14rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease;
+    gap: 1rem;
+}
+
+
+
+
+
+
+.task_row_opac .right .delete_btn{
+     width: 3.5rem;
+     height: 3.5rem;
+     border-radius: 8rem;
+     border: 2px solid white;
+     transition: all 300ms ease;
+     cursor:pointer;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row_opac .right .delete_btn:hover{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(252, 37, 108);
+    scale: 0.95;
+    transition: all 300ms ease;
+}
+.task_row_opac .right .delete_btn:active{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(252, 37, 108);
+    scale: 0.8;
+    transition: all 300ms ease;
+}
+.task_row_opac .right .delete_btn_c{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(0, 255, 98);
+    transition: all 300ms ease;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row_opac .right .delete_btn_c:hover{
+   width: 3.5rem;
+   height: 3.5rem;
+   border-radius: 8rem;
+   border: 2px solid rgb(252, 37, 108);
+   scale: 0.95;
+   transition: all 300ms ease;
+}
+.task_row_opac .right .delete_btn_c:active{
+   width: 3.5rem;
+   height: 3.5rem;
+   border-radius: 8rem;
+   border: 2px solid rgb(252, 37, 108);
+   scale: 0.8;
+   transition: all 300ms ease;
+}
+
+
+
+
+
+.task_row_opac .right .complete_btn{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row_opac .right .complete_btn:hover{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(0, 255, 98);
+    scale: 0.95;
+    transition: all 300ms ease;
+}
+.task_row_opac .right .complete_btn:active{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    scale: 0.8;
+}
+.task_row_opac .right .complete_btn_c{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(0, 255, 98);
+    transition: all 300ms ease;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row_opac .right .complete_btn_c:hover{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    scale: 0.95;
+    transition: all 300ms ease;
+}
+.task_row_opac .right .complete_btn_c:active{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    scale: 0.8;
+}
+
+
+
+
+
+.task_row_opac .right .edit_btn{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.task_row_opac .right .edit_btn:hover{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid rgb(96, 19, 148);
+    scale: 0.95;
+    transition: all 300ms ease;
+}
+.task_row_opac .right .edit_btn:active{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    scale: 0.8;
+}
+
+
+
+
+
+
+   /*############# MEDIA QUERY ############### */
+
+   
+  @media screen and (min-width: 445px)  and (max-width: 645px) {
+  
+    .task_row_opac{
+        padding: 0.1rem 1rem;
+    }
+    .task_row{
+        padding: 0.1rem 1rem;
+    }
+
+    .task_row .right .delete_btn{
+         width: 2.8rem;
+         height: 2.8rem;
+    }
+    .task_row .right .delete_btn:hover{
+        width: 2.8rem;
+        height: 2.8rem;
+        scale: 0.9;
+   }
+    .task_row .right .edit_btn{
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    .task_row .right .edit_btn:hover{
+        width: 2.8rem;
+        height: 2.8rem;
+        scale: 0.9;
+    }
+    .task_row .right .complete_btn{
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    .task_row .right .complete_btn:hover{
+        width: 2.8rem;
+        height: 2.8rem;
+        scale: 0.9;
+    }
+
+
+    .task_row .right .delete_btn_c{
+        width: 2.8rem;
+        height: 2.8rem;
+   }
+   .task_row .right .delete_btn_c:hover{
+       width: 2.8rem;
+       height: 2.8rem;
+       scale: 0.9;
+  }
+   .task_row .right .edit_btn_c{
+       width: 2.8rem;
+       height: 2.8rem;
+   }
+   .task_row .right .edit_btn_c:hover{
+       width: 2.8rem;
+       height: 2.8rem;
+       scale: 0.9;
+   }
+   .task_row .right .complete_btn_c{
+       width: 2.8rem;
+       height: 2.8rem;
+   }
+   .task_row .right .complete_btn_c:hover{
+       width: 2.8rem;
+       height: 2.8rem;
+       scale: 0.9;
+   }
+  
+    
+  }
+
+
+
+
+  @media screen and (min-width: 245px)  and (max-width: 415px) {
+  
+    .task_row_opac{
+        padding: 0.1rem 1rem;
+    }
+    .task_row{
+        padding: 0.1rem 1rem;
+    }
+
+    .task_row .right {
+        width: 7rem;
+        height: 2.5rem;
+   }
+
+
+
+
+    .task_row .right .delete_btn{
+         width: 2.6rem;
+         height: 1.5rem;
+    }
+    .task_row .right .delete_btn:hover{
+        width: 2.6rem;
+         height: 1.5rem;
+        scale: 0.9;
+   }
+    .task_row .right .edit_btn{
+       width: 2.6rem;
+         height: 1.5rem;
+    }
+    .task_row .right .edit_btn:hover{
+        width: 2.6rem;
+         height: 1.5rem;
+        scale: 0.9;
+    }
+    .task_row .right .complete_btn{
+       width: 2.6rem;
+         height: 1.5rem;
+    }
+    .task_row .right .complete_btn:hover{
+        width: 2.6rem;
+         height: 1.5rem;
+        scale: 0.9;
+    }
+
+
+    .task_row .right .delete_btn_c{
+        width: 2rem;
+         height: 1.9rem;
+   }
+   .task_row .right .delete_btn_c:hover{
+       width: 2rem;
+         height: 1.9rem;
+       scale: 0.9;
+  }
+   .task_row .right .edit_btn_c{
+       width: 2rem;
+         height: 1.9rem;
+   }
+   .task_row .right .edit_btn_c:hover{
+       width: 2rem;
+         height: 1.9rem;
+       scale: 0.9;
+   }
+   .task_row .right .complete_btn_c{
+       width: 2rem;
+         height: 1.9rem;
+   }
+   .task_row .right .complete_btn_c:hover{
+       width: 2rem;
+         height: 1.9rem;
+       scale: 0.9;
+   }
+  
+    
+  }
+  
+  
